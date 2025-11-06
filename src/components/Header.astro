@@ -6,10 +6,10 @@ const links = [
 ];
 ---
 
-<header>
+<header class="bg-[#333] text-white p-[1rem]">
   <nav>
     {links.map(link => (
-      <a href={link.href}>{link.text}</a>
+      <a class="decoration-none mr-[1rem] text-white hover:text-blue-300" href={link.href}>{link.text}</a>
     ))}
   </nav>
 </header>
